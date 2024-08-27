@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+float receita, despesas;
+float saldo=0.0;
+    printf ("informe o valor da receitas:");
+        scanf ("%f",&receitas);
+    printf ("informe o valor da despesas:");
+        scanf ("%f",&despesas);
+saldo =receitas - despesas;
+    printf ("saldo atualizado:%f",saldo);
+        scanf ("%f",&saldo);
+return 0;
+}

@@ -1,9 +1,0 @@
-# include <studio.h>
-# include <stdlib.h>
-int manin(){
-int ENTRADA, CONTAGEM;
-printf("digite o numero de pessoas: ");
-scanf("%i",& ENTRADA);
-CONTAGEM=(1+ENTRADA);
-printf("A SOMA É DE:%i",CONTAGEM)
-}
