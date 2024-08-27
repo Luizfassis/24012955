@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main () {
+int Nvisit;
+  printf("Informe a atual quantidade de visitantes:%d",Nvisit);
+    scanf("%d",&N_atual);
+
+  printf("Informe quantos visitantes entraram:%d",visitantes);
+    scanf("%d", &visitantes);
+    
+printf("registro concluido com sucesso");
+    
+return 0;
+}
