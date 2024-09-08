@@ -1,0 +1,9 @@
+#include<stdio.h>
+
+int main(){
+    int a;
+    printf("digite o valor de a: ");
+    scanf("%d", a);
+return 0;
+}
+//para associar um valor ao 'a' necessário fazer dessa forma com scanf depois e pedindo o valor desejado para guardar
