@@ -1,0 +1,8 @@
+#include<stdio.h>
+
+int main(){
+  double n = 4000000000;
+    printf("%.1lf\n", n);
+return 0;
+}
+//necessário usar o double ao invés do float por necessidade de bites a mais.
