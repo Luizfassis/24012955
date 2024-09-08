@@ -1,0 +1,8 @@
+#include<stdio.h>
+
+int main(){
+    printf("%d\n", 4);
+    printf("%d\n", 2);
+return 0;
+}
+// para ser dois números separados necessário usar contra barra 'n'(\n) para separar em duas linhas diferentes
