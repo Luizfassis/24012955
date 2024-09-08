@@ -1,0 +1,10 @@
+#include<stdio.h>
+
+ int main(){
+    char nome;
+    printf("Olá sou o Nº1,como é seu nome\n");
+    printf("digite seu nome: ");
+    scanf("%s",&nome);
+    printf("Bem vindo ao clube:%s",&nome);
+return 0;
+}
