@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main(){
+    int n1,n10,n50,n100;
+    float saldo;
+    printf("Digite seu saldo: ");
+    scanf("%f",&saldo);
+    n100 = (saldo/100);
+    n50 = ((saldo-(n100*100))/50);
+    n10 = ((saldo-(n100*100)-(n50*50))/10);
+    n1 = (saldo-(n100*100)-(n50*50)-(n10*10));
+    printf("A quantidade necessarias de 1 real:%d\n De 10 reais:%d\n De 50 reais:%d\n De 100 reais:%d",n1,n10,n50,n100);
+return 0;
+}
