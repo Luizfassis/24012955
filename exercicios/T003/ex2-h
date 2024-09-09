@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main(){
+double N,PA;
+    printf("digite sua razao: ");
+    scanf("%lf",&N);
+    PA=(N*N);
+    printf("Seu termo e %lf",PA);
+    return 0;
+}
