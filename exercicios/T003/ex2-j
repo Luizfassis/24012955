@@ -1,1 +1,11 @@
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main(){
+    float n1,n10,n50,n100, saldo;
+    printf("Digite a quantidade de notas de 1,10,50,100: ");
+    scanf("%f,%f,%f,%f",&n1,&n10,&n50,&n100);
+    saldo = (n1+(n10*10)+(n50*50)+(n100*100));
+    printf("Seu saldo e %.1f reais",saldo);
+return 0;
+}
