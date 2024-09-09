@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main(){
+    float ação1,ação2,ação3,total;
+    total = 1000;
+    ação1 = ((17/24.13)*100);
+    ação2 = ((35/11)*100);
+    ação3 = ((25/38.65)*100);
+    printf("Digite a quantidade de açoes voce que comprar: ");
+    
+return 0;
+}
