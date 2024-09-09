@@ -1,1 +1,13 @@
-
+#include <stdio.h>
+#include <stdlib.h>
+int main(){
+char nome;
+double idade;
+    printf("digite seu nome: ");
+    scanf("%s",&nome);
+    printf("digite sua idade: ");
+    scanf("%lf",&idade);
+    printf("sua idade em dias e %.1lf\n",idade*365);
+    printf("seu nome e %s",nome);
+return 0;
+}
