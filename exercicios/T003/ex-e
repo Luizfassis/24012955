@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main(){
+double L,H,tinta,area;
+    printf("digite a largura: ");
+    scanf("%lf",&L);
+    printf("digite a altura: ");
+    scanf("%lf",&H);
+    area = (L*H);
+    tinta = ((area*0.3)/2);
+    printf("vc vai precisar de %lf latas de tintas", tinta);
+return 0;
+}
