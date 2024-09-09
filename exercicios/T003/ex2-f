@@ -1,1 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main(){
+double C,F;
+    printf("digite os graus em farenheit: ");
+    scanf("%lf",&F);
+    C=(0.556*(F-32));
+    printf("Sua temperatura em %.1lf ºC",C);
 
+    return 0;
+}
