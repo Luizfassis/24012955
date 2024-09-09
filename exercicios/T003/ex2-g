@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main(){
+double P,V,T,M;
+    printf("digite a Pressao: ");
+    scanf("%lf",&P);
+    printf("digite a Temperatura: ");
+    scanf("%lf",&T);
+    printf("digite a Volume: ");
+    scanf("%lf",&V);
+    M=((P*V)/0.37*(T+460));
+    printf("A massa do ar desse pneu e %.1lf",M);
+    return 0;
+}
