@@ -2,12 +2,30 @@
 #include <stdlib.h>
 #include <math.h>
 int main(){
-    float ação1,ação2,ação3,total;
-    total = 1000;
-    ação1 = ((17/24.13)*100);
-    ação2 = ((35/11)*100);
-    ação3 = ((25/38.65)*100);
-    printf("Digite a quantidade de açoes voce que comprar: ");
-    
+    int N1,N2,N3;
+    printf("Digite os tres numeros: ");
+    scanf("%d,%d,%d",&N1,&N2,&N3);
+    if (N1==N2||N2==N3||N1==N3){
+    printf("Os numeros devem ser diferentes");}
+    else {
+        if(N1 > N2 && N1 > N3){
+        if (N2>N3){
+        printf("%d,%d,%d",N1,N2,N3);}
+        else{
+            printf("%d,%d,%d",N1,N3,N2);}
+    }
+         if (N2>N1&&N2>N3){
+        if (N1>N3){
+            printf("%d,%d,%d",N2,N1,N3);}
+            else{
+                printf("%d,%d,%d",N2,N3,N1);}
+        }
+       if (N3>N1&&N3>N2){
+            if(N1>N2){
+                printf("%d,%d,%d",N3,N1,N2);}
+                else{
+                    printf("%d,%d,%d",N3,N2,N1);}
+            }
+        }
 return 0;
 }
